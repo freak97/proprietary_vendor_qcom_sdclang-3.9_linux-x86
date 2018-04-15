@@ -1,3 +1,15 @@
+The following are the changes in the 3.9.10 release of the Snapdragon LLVM ARM
+C/C++ Toolchain over the 3.9.9 release.
+
+1. Fix crash when index register is clobbered in some cases
+
+The following are the changes in the 3.9.9 release of the Snapdragon LLVM ARM
+C/C++ Toolchain over the 3.9.7 release.
+
+1. Fix infinite compile time due to memory access analysis for loop 
+   vectorization
+2. Fix miscompile caused in certain cases by loop optimization
+
 The following are the changes in the 3.9.7 release of the Snapdragon LLVM ARM
 C/C++ Toolchain over the 3.9.6 release.
 
